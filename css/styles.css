@@ -117,11 +117,14 @@
     .header-connect-menu {
         display: flex;
         margin-left: auto;
-        align-items: center;
     }
 
     .list {
         display: flex;
+    }
+
+    .header-connect-icons {
+        margin-right: 10px;
     }
     
     /* --------------- nav --------------- */
