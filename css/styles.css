@@ -266,13 +266,12 @@
         display: block;
         content:"";
         height: 120px;
+        background-image: url("../images/icons.svg#icon-antenna");
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: #F5F4FA;
-    }
-
-    .feature-item.icon-feature::before {
-        background-image: url("../images/icons.svg#icon-antenna");
+        background-position: center;
+        background-color:#F5F4FA;
+        
     }
 
 
