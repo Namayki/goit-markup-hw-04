@@ -262,9 +262,20 @@
         width: 270px;
     }
 
-    .icon {
-
+    .feature-item::before {
+        display: block;
+        content:"";
+        height: 120px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #F5F4FA;
     }
+
+    .feature-item.icon-feature::before {
+        background-image: url("../images/icons.svg#icon-antenna");
+    }
+
+
 
     .feature-icon {
         margin-top: 25px;
