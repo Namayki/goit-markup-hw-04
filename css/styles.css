@@ -121,6 +121,7 @@
     
     .envelope-icon,
     .mail-icon {
+        fill: currentColor;
         margin-right: 10px;
     }
 
@@ -428,7 +429,6 @@
         fill:var(--icon-color);
     }
 
-    
     .clients-icon:hover, 
     .clients-icon:focus {
         fill:var(--accent-color) ;
@@ -446,10 +446,10 @@
 
     .clients-link:hover,
     .clients-link:focus {
+       border-color: var(--accent-color);
         fill:var(--accent-color);
     }
     
-
     /* --------------- portfolio --------------- */
 
     .portfolio {
