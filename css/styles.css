@@ -129,6 +129,9 @@
 
     /* --------------- nav --------------- */
 
+    .header-nav .current {
+        color: var(--accent-color);
+    } 
     .header-nav {
         display: flex;
         align-items: center;
@@ -136,15 +139,13 @@
 
    .nav-menu {
         display: flex;
+        font-size: 14px; 
+        line-height: 1.14;
     }
 
     .menu-item:not(:last-child),
     .header-connect-item:not(:last-child) {
         margin-right: 50px;
-    }
-
-    .header-nav .current {
-        color: var(--accent-color);
     }
 
     .menu-link {
@@ -166,11 +167,6 @@
     .header-connect-link:hover, 
     .header-connect-link:focus {
         color: var(--accent-color);
-    }
-    
-    .nav-menu {
-        font-size: 14px; 
-        line-height: 1.14;
     }
     
     /* --------------- hero --------------- */
