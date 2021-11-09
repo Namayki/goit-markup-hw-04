@@ -183,6 +183,7 @@
          ),
          url(../images/img-hero.jpg);
         background-repeat: no-repeat;
+        background-size: cover;
         background-position: center;
         max-width: 1600px;
         margin: 0 auto;
