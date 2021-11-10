@@ -455,7 +455,6 @@
         padding-right: 22px;
         padding-bottom: 6px;
         padding-left: 22px;
-        margin: 8px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
@@ -491,6 +490,11 @@
         margin-left: 30px;
     }
 
+    .projects-link {
+        display: block;
+        cursor: pointer;
+    }
+
     .projects-link:hover,
     .projects-link:focus {
         box-shadow:
@@ -505,6 +509,7 @@
         padding-bottom: 20px;
         padding-left: 24px;
         border-top: none;
+        text-align: left;
     }
 
     .projects-title {
@@ -574,11 +579,11 @@
 
     /* -------------- social-nav ---------------- */
 
-    .social-container{
+    .social-container {
           display: block;
     }
 
-    .social-title{
+    .social-title {
         font-weight: bold;
         font-size: 14px;
         line-height: 1.14;
