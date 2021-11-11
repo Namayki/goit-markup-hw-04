@@ -591,6 +591,7 @@
         text-transform: uppercase;
         color:var(--title-color);
         margin-bottom: 20px;
+        display: block;
     }
 
     .social-nav {
